@@ -42,19 +42,8 @@
 {\LARGE\bfseries Formelsammlung Robotik }
 
 \subsection*{Vektoren}
-\subsubsection*{Mathematische Operationen im Vektorraum}
 \renewcommand{\arraystretch}{1}
 \begin{tabularx}{\columnwidth}{l|c|X}
-	Addition & $\vec{a} + \vec{b}$ & 
-	$\left(\begin{array}{c}                         a_1 + b_1 \\
-	a_2 + b_2 \\
-	a_3 + b_3 \\                               
-	\end{array}\right)$ \\ \hline
-	Subtraktion & $\vec{a}-\vec{b}$ & 
-	$\left(\begin{array}{rrr}                       a_1 - b_1\\
-	a_2 - b_2\\
-	a_3 - b_3\\                 
-	\end{array}\right)$ \\ \hline
 	Skalare Multipl. & $ \lambda \cdot \vec{a}$ & 
 	$\left(\begin{array}{rrr}                       \lambda \cdot a_1\\
 	\lambda \cdot a_2\\
@@ -64,28 +53,10 @@
 	Betrag (Norm) & $ ||\vec{a}||$ & 
 	$|\vec{a}| = \sqrt{{a_1}^2 + {a_2}^2 + {a_3}^2}$\\ \hline
 	Skalarprodukt & $\vec{a}\cdot\vec{b}$ & $a_1 \cdot b_1 + \ldots + a_n \cdot b_n = x$ \\ \hline
-	Kreuzprodukt & $\vec{a} \times \vec{b}$ &$\left(\begin{array}{c}                         a_2 \cdot b_3 - a_3 \cdot b_2 \\
-	a_3 \cdot b_1 - a_1 \cdot b_3 \\
-	a_1 \cdot b_2 - a_2 \cdot b_1 \\                               
-	\end{array}\right)$ \\ \hline
-	Spatprodukt & $u \cdot (v \times w)$ & $\left|\begin{array}{ccc}
-		 u_1  &  u_2  &  u_3  \\
-		 v_1  &  v_2  &  v_3  \\
-		 w_1  &  w_2  &  w_3  \\
-	\end{array}\right|$ (siehe Determinante) \\ \hline
 	Winkel &  & $\cos \alpha = \dfrac{\vec{a} \cdot \vec{b}}{|\vec{a}| \cdot |\vec{b}|}$ \\ \hline
-	Rotationsmatrix & & $\left(\begin{Array}{ll}
-	\cos \alpha & -\sin \alpha\\
-	\sin \alpha & \cos \alpha\\
-	\end{Array}\right) \cdot \left(\begin{Array}{c}
-	x
-	\\
-	y
-	\end{Array}\right)$
 \end{tabularx}
 
 \subsection*{Matrizen}
-\subsubsection*{Operatoren}
 \begin{tabularx}{\columnwidth}{r|c|X}
 	Gleich & $ A = B $ & $ \left(a_{ij}\right) = \left(b_{ij}\right)$ \\ \hline
 	Addition & $ C = A + B $ & $ \left(c_{ij}\right) = \left(a_{ij}\right) + \left(b_{ij}\right) $ \\ \hline
@@ -149,56 +120,8 @@
 	\end{Array}\right)
 	$\\
 
-\subsubsection*{Inverse bilden}
-\begin{tabularx}{\columnwidth}{rcl}
-& & $A \cdot A ^{-1} = I | A=(a_{ij}), A^{-1} = (a_{ij})$\\
-\multicolumn{3}{l}{Multiplikation aus $A$ und $A^{-1}$ ergeben Einheitsmatrix:}\\
-& & $
-\left(\begin{Array}{ccc}
-a_{11} & \dots & a_{1n}\\
-\vdots &       & \vdots\\
-a_{n1} & \dots & a_{nn}\\
-\end{Array}\right)
-\cdot
-\left(\begin{array}{ccc}
-\hat{a}_{11} & \dots & \hat{a}_{1n} \\
-\vdots    &       &    \vdots    \\
-\hat{a}_{n1} & \dots & \hat{a}_{nn}
-\end{array}\right)
-=
-\left(\begin{Array}{ccc}
-1 &        & 0\\
-& \ddots &  \\
-0 &        & 0\\
-\end{Array}\right)
-$\\
-\multicolumn{3}{l}{Inverse kann mit Gauß-Jordan berechnet werden.}\\
-\multicolumn{3}{l}{Koeffizientenmatrix $A$ umd Einheitsmatrix $I$ erweitern.}\\
-$(A|I)$ & $=$ & $\left(\begin{Array}{ccc|ccc}
-a_{11} & \dots & a_{1n} & 1 &        & 0\\
-\vdots &       & \vdots &   & \ddots &  \\
-a_{n1} & \dots & a_{nn} & 0 &        & 0\\
-\end{Array}\right)$ \\
-\multicolumn{3}{l}{Matrix $A$ mit elementarer Zeilenumformung auf obere Dreiecksgestalt}\\
-\multicolumn{3}{l}{bringen, wobei Einheitsmatrix $I$ mit umgeformt wird:} \\ 
-$(D|B)$ & $=$ & $\left(\begin{array}{ccc|ccc}
-	\ast & \dots  &  \ast  &  \ast  & \dots &  \ast  \\
-	     & \ddots & \vdots & \vdots &       & \vdots \\
-	 0   &        &  \ast  &  \ast  & \dots &  \ast
-\end{array}\right)$ \\
-\multicolumn{3}{l}{Matrix $A$ ist nur invertierbar, wenn $D$ keine Null auf Hauptdiagonale}\\
-\multicolumn{3}{l}{$D$ mit elementarer Zeilenumformung auf Diagonalgestalt und durch}\\
-\multicolumn{3}{l}{Skalierung in Einheitsmatrix. Rechte Seite enthält die Inverse.}\\
-$(I|A^{-1})$ & $=$ & $\left(\begin{array}{ccc|ccc}
-	1 &        & 0 & \hat{a}_{11} & \dots & \hat{a}_{1n} \\
-	  & \ddots &   &    \vdots    &       &    \vdots    \\
-	0 &        & 1 & \hat{a}_{n1} & \dots & \hat{a}_{nn} \\
-\end{array}\right)$
-\end{tabularx}
-
-\subsubsection*{Rechte Hand Regel}
-\includegraphics[width=.9\columnwidth]{rechteHand.jpg}
-\includegraphics[width=.9\columnwidth]{handRotation.jpg}
+\subsection*{Rechte Hand Regel}
+\includegraphics[width=\columnwidth]{handRotation.jpg}
 
 \subsection*{Koordinatensysteme}
 \begin{tabularx}{\columnwidth}{l|X|c}
@@ -208,7 +131,7 @@ $(I|A^{-1})$ & $=$ & $\left(\begin{array}{ccc|ccc}
 \end{tabularx}
 
 \subsection*{Rotationsmatrizen}
-\begin{tabularx}{\columnwidth}{X|p{.8\columnwidth}}
+\begin{tabularx}{\columnwidth}{X|m{.71\columnwidth}}
 	Rotation um X & $R_x(\alpha) = \left[\begin{Array}{c} x' \\ y' \\ z' \end{Array}\right]
 	= \left[\begin{Array}{ccc}
 		1 & 0 & 0\\
@@ -239,9 +162,9 @@ Rotation um Z & $R_z(\alpha) = \left[\begin{Array}{c} x' \\ y' \\ z' \end{Array}
 	y\\
 	z
 \end{Array}\right]$\\ \hline
-\multicolumn{1}{p{.2\columnwidth}|}{Vormultipl.\newline(Roll-pitch-yaw)} & Rotation um die ursprüngliche (feste) Achse. Schreibweise: Letzte Drehung $\rightarrow$ 1. Drehung\\ \hline
-\multicolumn{1}{p{.2\columnwidth}|}{Nachmultipl.\newline (Euler-Winkel)} & Rotation um die neuen (momentanen) Achsen. Schreibweise: 1. Drehung $\rightarrow$ Letzte Drehung\\ \hline
-Homogene $4\times4$-Matrix & $T = \left(\begin{Array}{c|c}
+Vormultipl. (Roll-pitch-yaw) & Rotation um die ursprüngliche (feste) Achse. Schreibweise: Letzte Drehung $\rightarrow$ 1. Drehung\\ \hline
+Nachmultipl. (Euler-Winkel) & Rotation um die neuen (momentanen) Achsen. Schreibweise: 1. Drehung $\rightarrow$ Letzte Drehung\\ \hline
+Homogene $4\times4$-Matrix & $\left(\begin{Array}{c|c}
 	R_{3\times3} & u_{3\times1}\\ \hline
 	f_{1\times3} = 0 & 1\times1
 \end{Array}\right) = \left(\begin{Array}{cccc}
@@ -254,10 +177,39 @@ Invertierung 4$\times$4 &  $T^{-1} = \left(\begin{Array}{ccc:c}
 	a_{x} & a_{y} & a_{z} & -a^{T}\cdot\vec{u}\\ \cdashline{1-3}
 	0 & 0&0&1
 \end{Array}\right)$\\ \hline
-Verkettete Lagebeschr.-& $ ^{BKS}H_{B}  = ^{BKS}H_{A} \cdot ^{A}H_{B} | H = \text{Homogene Matr.} $\\ \hline
-test&
-
+Verkettete Lagebeschr.& $ ^{BKS}H_{B}  = ^{BKS}H_{A} \cdot ^{A}H_{B}$ \hfill (H = Homo. Matr.)\\ 
 \end{tabularx}
+
+\subsection*{Quaternionen}
+$$a,b,c,d \in \square \text{Quaternion } q \Rightarrow q = a + b\cdot i + c \cdot * j + d \cdot k $$
+$$a \in \mathbb{R}, u = (b,c,d)^T \in \mathbb{I}$$
+$$q = (a,b,c,d)^T \text{ bzw. } q=(a,u)^T$$
+\begin{alignat*}{3}
+	i^2 &= j^2 &= k^2 &= ijk = -1\\
+	ij &= -ji &= k\\
+	jk &= -kj &= i\\
+	ki &= -ik &= j
+\end{alignat*}
+
+\begin{tabularx}{\columnwidth}{m{.15\columnwidth}|>{\raggedright\arraybackslash}X}
+	Gegeben & $ q = (a_q, u_q), r=(a_r, u_r) $\\ \hline
+	Addition & $ q + r = (a_q + a_r, u_q + u_r) $\\ \hline
+	Skalar & $ q \cdot r = a_qa_r + <u_q, u_r> = a_qa_r + b_qb_r + c_qc_r +d_qd_r $\\ \hline
+	quatern. Multipl. & $  q*r = \newline (a_q+i\cdot b_q + j\cdot c_q + k\cdot d_q)\cdot (a_r + i\cdot b_r + j\cdot c_r + k\cdot d_r) $\\ \hline
+	konjugiert & $ q^{*} = (a_q, -u_r) $\\ \hline
+	Norm & $ |q| = \sqrt{qq^{*}} = \sqrt{q^{*}q} = \sqrt{a^2+b^2+c^2+d^2} $\\ \hline
+	inverses Element & $ q^{-1} = \frac{q^{*}}{|q|^2}$
+\end{tabularx}
+
+\subsubsection*{Rotation mit Quaternionen}
+\begin{tabularx}{\columnwidth}{l|X}
+	Vektor als Quaternion & $ p = (x,y,z)^T \Rightarrow q = (0, p)^T $\\ \hline
+	Skalar als Quaternion & $ s \Rightarrow q = (s, 0)^T $\\ \hline
+	Einheitsquaternion & $ |q| = 1 $\\ \hline
+	Rotation um $ \theta $, Achse $ u $ & $ q = (\cos(\frac{\theta}{2}), u\cdot\sin(\frac{\theta}{2})) $\\ \hline
+	Rotation Punkt $ v $ & $ v' = qvq^{*} = qvq^{-1} $
+\end{tabularx}
+
 
 
 \end{multicols*}

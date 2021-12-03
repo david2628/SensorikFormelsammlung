@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 12:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.1)  3 DEC 2021 14:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -915,163 +915,128 @@ e
 ))
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd)
-Overfull \hbox (9.49802pt too wide) in paragraph at lines 100--151
+Overfull \hbox (9.49802pt too wide) in paragraph at lines 71--122
 $[] \OMS/cmsy/m/n/8 ^^A [] \OT1/cmr/m/n/8 = []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--151
+Underfull \hbox (badness 10000) in paragraph at lines 71--122
 
  []
 
-
-Overfull \hbox (27.74178pt too wide) in alignment at lines 197--197
-[][][] 
- []
-
-<rechteHand.jpg, id=4, 227.62204pt x 133.72795pt>
-File: rechteHand.jpg Graphic file (type jpg)
-<use rechteHand.jpg>
-Package pdftex.def Info: rechteHand.jpg  used on input line 200.
-(pdftex.def)             Requested size: 219.36926pt x 128.88545pt.
-<handRotation.jpg, id=5, 823.57687pt x 481.04718pt>
+<handRotation.jpg, id=4, 1053.9375pt x 481.04718pt>
 File: handRotation.jpg Graphic file (type jpg)
 <use handRotation.jpg>
-Package pdftex.def Info: handRotation.jpg  used on input line 201.
-(pdftex.def)             Requested size: 219.36926pt x 128.13017pt.
+Package pdftex.def Info: handRotation.jpg  used on input line 124.
+(pdftex.def)             Requested size: 243.74529pt x 111.24776pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|$[] \OT1/cmr/m/n/8 =
  []
 
 
-Overfull \hbox (0.98157pt too wide) in paragraph at lines 208--208
+Overfull \hbox (0.98157pt too wide) in paragraph at lines 131--131
 \OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x; y; z; ; ^^L; ^^M\OT1/cmr/m/n/8 )$| 
  []
 
 
-Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 260.
-
-
-Overfull \hbox (24.19757pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Overfull \hbox (3.3056pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 um
- []
-
-
-Overfull \hbox (24.19757pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Overfull \hbox (3.3056pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 um
- []
-
-
-Overfull \hbox (24.19757pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Overfull \hbox (3.3056pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 um
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/8 Vormultipl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmr/m/n/8 (Roll-pitch-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
+Overfull \hbox (1.6384pt too wide) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/8 Nachmultipl.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/cmr/m/n/8 (Euler-
  []
 
 
-Overfull \hbox (29.97821pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Homogene
  []
 
 
-Overfull \hbox (2.36115pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 4 \OMS/cmsy/m/n/8 ^^B
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 4$-
- []
-
-
-Overfull \hbox (16.99886pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 Matrix| 
- []
-
-
-Overfull \hbox (36.83942pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Invertierung
  []
 
 
-Overfull \hbox (6.6112pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 4$\OMS/cmsy/m/n/8 ^^B$\OT1/cmr/m/n/8 4| 
- []
-
-
-Overfull \hbox (29.74904pt too wide) in paragraph at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/cmr/m/n/8 Verkettete
  []
 
 
-Overfull \hbox (37.94638pt too wide) in paragraph at lines 260--260
-\OT1/cmr/m/n/8 Lagebeschr.-
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/8 quatern.
  []
 
 
-Overfull \hbox (5.24174pt too wide) in paragraph at lines 260--260
-[]|\OT1/cmr/m/n/8 test| 
+Overfull \hbox (0.98885pt too wide) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/8 konjugiert| 
  []
 
 
-Overfull \hbox (24.39998pt too wide) in alignment at lines 260--260
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\OT1/cmr/m/n/8 inverses
+ []
+
+
+Overfull \hbox (8.50012pt too wide) in paragraph at lines 202--203
 [][] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rechteHand.jpg> <./handR
-otation.jpg>] (./RobotikFormelsammlung.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./handRotation.jpg>]
+(./RobotikFormelsammlung.aux) ) 
 Here is how much of TeX's memory you used:
- 18293 strings out of 478994
- 368005 string characters out of 5864751
- 949402 words of memory out of 5000000
- 35445 multiletter control sequences out of 15000+600000
+ 18287 strings out of 478994
+ 367902 string characters out of 5864751
+ 929402 words of memory out of 5000000
+ 35440 multiletter control sequences out of 15000+600000
  408668 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,19n,116p,10686b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on RobotikFormelsammlung.pdf (1 page, 153574 bytes).
+ 113i,20n,116p,10686b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cme
+x8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on RobotikFormelsammlung.pdf (1 page, 192974 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
