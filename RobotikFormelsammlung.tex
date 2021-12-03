@@ -177,6 +177,12 @@ Invertierung 4$\times$4 &  $T^{-1} = \left(\begin{Array}{ccc:c}
 	a_{x} & a_{y} & a_{z} & -a^{T}\cdot\vec{u}\\ \cdashline{1-3}
 	0 & 0&0&1
 \end{Array}\right)$\\ \hline
+Translation um $ x,y,z $ & $ \left(\begin{Array}{cccc}
+	1 & 0 & 0 & x\\
+	0 & 1 & 0 & y\\
+	0 & 0 & 1 & z\\
+	0 & 0 & 0 & 1
+\end{Array}\right) $\\ \hline
 Verkettete Lagebeschr.& $ ^{BKS}H_{B}  = ^{BKS}H_{A} \cdot ^{A}H_{B}$ \hfill (H = Homo. Matr.)\\ 
 \end{tabularx}
 
@@ -203,11 +209,11 @@ $$q = (a,b,c,d)^T \text{ bzw. } q=(a,u)^T$$
 
 \subsubsection*{Rotation mit Quaternionen}
 \begin{tabularx}{\columnwidth}{l|X}
-	Vektor als Quaternion & $ p = (x,y,z)^T \Rightarrow q = (0, p)^T $\\ \hline
-	Skalar als Quaternion & $ s \Rightarrow q = (s, 0)^T $\\ \hline
+	Vektor als Quaternion & $ p = (x,y,z)^T \Leftrightarrow q_p = (0, p)^T $\\ \hline
+	Skalar als Quaternion & $ s \Leftrightarrow q_s = (s, 0, 0, 0)^T $\\ \hline
 	Einheitsquaternion & $ |q| = 1 $\\ \hline
-	Rotation um $ \theta $, Achse $ u $ & $ q = (\cos(\frac{\theta}{2}), u\cdot\sin(\frac{\theta}{2})) $\\ \hline
-	Rotation Punkt $ v $ & $ v' = qvq^{*} = qvq^{-1} $
+	Rotation um $ \theta $, Achse $ u $ & $ q_r = (\cos(\frac{\theta}{2}), u\cdot\sin(\frac{\theta}{2})) $\\ \hline
+	Rotation Punkt $ p $ & $ q_{p'} = q_rq_pq_r^{*} = q_rq_pq_r^{-1} $
 \end{tabularx}
 
 \subsection*{Sinus}

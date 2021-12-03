@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.1)  3 DEC 2021 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.12.1)  3 DEC 2021 17:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -940,72 +940,77 @@ Overfull \hbox (0.98157pt too wide) in paragraph at lines 131--131
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Rotation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Vormultipl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 \OT1/cmr/m/n/8 (Roll-pitch-
  []
 
 
-Overfull \hbox (1.6384pt too wide) in paragraph at lines 181--181
+Overfull \hbox (1.6384pt too wide) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Nachmultipl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 \OT1/cmr/m/n/8 (Euler-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Homogene
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Invertierung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/8 Translation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/cmr/m/n/8 Verkettete
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/8 quatern.
  []
 
 
-Overfull \hbox (0.98885pt too wide) in paragraph at lines 202--202
+Overfull \hbox (0.98885pt too wide) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/8 konjugiert| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/8 inverses
  []
 
 
-Overfull \hbox (8.50012pt too wide) in paragraph at lines 202--203
+Overfull \hbox (8.50012pt too wide) in paragraph at lines 208--209
 [][] 
  []
 
@@ -1030,77 +1035,77 @@ Missing character: There is no ° in font cmr8!
 Missing character: There is no ° in font cmr8!
 Missing character: There is no ° in font cmr8!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-Missing character: There is no ° in font cmr8!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 Missing character: There is no ° in font cmr8!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-Missing character: There is no ° in font cmr8!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 Missing character: There is no ° in font cmr8!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-Missing character: There is no ° in font cmr8!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 Missing character: There is no ° in font cmr8!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-Missing character: There is no ° in font cmr8!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 Missing character: There is no ° in font cmr8!
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-Missing character: There is no ° in font cmr8!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 218.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 Missing character: There is no ° in font cmr8!
 
-Overfull \hbox (8.9727pt too wide) in alignment at lines 218--218
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+Missing character: There is no ° in font cmr8!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+Missing character: There is no ° in font cmr8!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+Missing character: There is no ° in font cmr8!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+Missing character: There is no ° in font cmr8!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
+
+Missing character: There is no ° in font cmr8!
+
+Overfull \hbox (8.9727pt too wide) in alignment at lines 224--224
 [][][][][][][][][][] 
  []
 
@@ -1111,7 +1116,7 @@ Overfull \hbox (8.9727pt too wide) in alignment at lines 218--218
 Here is how much of TeX's memory you used:
  18290 strings out of 478994
  367937 string characters out of 5864751
- 938402 words of memory out of 5000000
+ 942402 words of memory out of 5000000
  35442 multiletter control sequences out of 15000+600000
  409005 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1128,7 +1133,7 @@ ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on RobotikFormelsammlung.pdf (1 page, 194899 bytes).
+Output written on RobotikFormelsammlung.pdf (1 page, 196168 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
