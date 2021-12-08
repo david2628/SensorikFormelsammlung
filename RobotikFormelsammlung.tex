@@ -162,8 +162,8 @@ Rotation um Z & $R_z(\alpha) = \left[\begin{Array}{c} x' \\ y' \\ z' \end{Array}
 	y\\
 	z
 \end{Array}\right]$\\ \hline
-Vormultipl. (Roll-pitch-yaw) & Rotation um die ursprüngliche (feste) Achse. Schreibweise: Letzte Drehung $\rightarrow$ 1. Drehung\\ \hline
-Nachmultipl. (Euler-Winkel) & Rotation um die neuen (momentanen) Achsen. Schreibweise: 1. Drehung $\rightarrow$ Letzte Drehung\\ \hline
+Vormultipl. (Roll-pitch-yaw) & $ H_{\text{neu}} = H_n \cdot H_{n-1} \cdot \ldots \cdot H_1 $\\ \hline
+Nachmultipl. (Euler-Winkel) & $ H_{\text{neu}} = H_1 \cdot H_2 \cdot \ldots \cdot H_n $\\ \hline
 Homogene $4\times4$-Matrix & $\left(\begin{Array}{c|c}
 	R_{3\times3} & u_{3\times1}\\ \hline
 	f_{1\times3} = 0 & 1\times1
