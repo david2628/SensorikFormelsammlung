@@ -120,15 +120,15 @@
 	\end{Array}\right)
 	$\\
 
-\subsection*{Rechte Hand Regel}
-\includegraphics[width=\columnwidth]{handRotation.jpg}
-
 \subsection*{Koordinatensysteme}
 \begin{tabularx}{\columnwidth}{l|X|c}
 	Objekt in 3D (OKS) & $\vec{v} = (x,y,z,\alpha,\beta,\gamma)$ & $\alpha,\beta,\gamma = $ Drehwinkel \\ \hline
 	Senkrechte &  \\ 
 	
 \end{tabularx}
+
+
+\includegraphics[width=.25\columnwidth]{axis.png}
 
 \subsection*{Rotationsmatrizen}
 \begin{tabularx}{\columnwidth}{X|m{.71\columnwidth}}
@@ -162,8 +162,8 @@ Rotation um Z & $R_z(\alpha) = \left[\begin{Array}{c} x' \\ y' \\ z' \end{Array}
 	y\\
 	z
 \end{Array}\right]$\\ \hline
-Vormultipl. (Roll-pitch-yaw) & $ H_{\text{neu}} = H_n \cdot H_{n-1} \cdot \ldots \cdot H_1 $\\ \hline
-Nachmultipl. (Euler-Winkel) & $ H_{\text{neu}} = H_1 \cdot H_2 \cdot \ldots \cdot H_n $\\ \hline
+Vormultipl. (Roll-pitch-yaw) & $ R = (R_n(R_{n-1}\ldots(R_2R_1)\ldots)) $\\ \hline
+Nachmultipl. (Euler-Winkel) & $ R = ((\ldots (R_nR_{n-1})\ldots R_2)R_1) $\\ \hline
 Homogene $4\times4$-Matrix & $\left(\begin{Array}{c|c}
 	R_{3\times3} & u_{3\times1}\\ \hline
 	f_{1\times3} = 0 & 1\times1
@@ -226,6 +226,7 @@ $$q = (a,b,c,d)^T \text{ bzw. } q=(a,u)^T$$
 \subsubsection*{Trigonometrie}
 $$ \sin(\alpha + \beta) = \sin\alpha \cdot \cos\beta + \sin\beta \cdot \cos\alpha $$
 $$ \cos(\alpha + \beta) = \cos\alpha \cdot \cos\beta - \sin\alpha \cdot \sin\beta $$
+
 
 \end{multicols*}
 \end{document}
